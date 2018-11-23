@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.MainReportsController">
+   <children>
+      <VBox alignment="CENTER" layoutX="55.0" layoutY="49.0" prefHeight="200.0" prefWidth="190.0" spacing="25.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" text="Appointment Types by Month" onAction="#handleReportOneButton" />
+            <Button alignment="CENTER" mnemonicParsing="false" text="Schedule For Each Consultant" onAction="#handleReportTwoButton" />
+            <Button alignment="CENTER" mnemonicParsing="false" text="Customers by Location" onAction="#handleReportThreeButton" />
+         </children>
+      </VBox>
+      <ButtonBar layoutX="177.0" layoutY="299.0" prefHeight="40.0" prefWidth="73.0" />
+      <Label layoutX="107.0" layoutY="14.0" text="Reports">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+    <Button layoutX="125.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+   </children>
+</AnchorPane>
