@@ -1,6 +1,9 @@
 # Jeff_Johnson_C195_SchedulingApplication
 Java Customer Management / Appointment System
 
+Login accounts: test/test or jjohnson/jjohnson
+
+WGU Rubric for this assignment:
 
 SOFTWARE II
 
